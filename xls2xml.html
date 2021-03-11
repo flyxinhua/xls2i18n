@@ -136,7 +136,7 @@
           // 具体化就是 [{Key: "SID_LOGIN_LOGIN",中文: "登录",英文: "Log In"},{Key: "SID_LOGIN_REGISTER",中文: "注册",英文: "Register"}]
           var arr = XLSX.utils.sheet_to_json(workbook.Sheets["Sheet1"]);
           let _arr = [];
-          let top = '<!-- create by sanvar ,on ' + Date() + ' --> \n<?xml version="1.0" encoding="utf-8"?> \n<resources>\n'
+          let top = '<?xml version="1.0" encoding="utf-8"?>\n<!-- create by sanvar ,on ' + Date() + ' -->\n<resources>\n'
           for (let language in arr[0]) {
             console.log(language);  // 取出所有语言的的列 其实就是第一行 // key ,中文， 英文 .....
             let str = top
