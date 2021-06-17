@@ -1,5 +1,5 @@
-# CreateAndroidStringRes
-将xml 文件转换为多语言的Android资源。
+# xls2i18n 
+将 excel 文件转换为移动端多语言的的工具。
 ### 使用方式
 - 打开html文件。
 - 拖拽或者选择文件。
